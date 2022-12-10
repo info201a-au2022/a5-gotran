@@ -1,0 +1,14 @@
+name: a5-co2-emissions
+title: a5-co2-emissions
+username:
+account: gordonnrat
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7861046
+bundleId: 6618253
+url: https://gordonnrat.shinyapps.io/a5-co2-emissions/
+when: 1670633713.19488
+lastSyncTime: 1670633713.19489
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|intro.html|intro.md

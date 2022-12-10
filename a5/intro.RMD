@@ -1,0 +1,10 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+source("server.R")
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Climate change is the changing of the world’s temperature and weather, which is caused by the burning of fossil fuel which causes CO2 and greenhouse gas emissions. This is why it is important to see the trends of CO2 and greenhouse gas emissions. In the world, the total CO2 emission is `r co2_data_highest()` million tonnes in 2021. Oil is an example of fossil fuel and I will be looking at the trend of production based CO2 emission from oil. In 2021, `r co2_data_high()` has the highest CO2 emission from oil with `r co2_data_high_oil()` million tonnes. The lowest emission is `r co2_data_low_oil()` million tonnes in `r co2_data_low()`. The chart I made will show the CO2 emission from oil over the years. You can pick the country to focus on and the range of the years.
